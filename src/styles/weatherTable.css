@@ -1,0 +1,44 @@
+p {
+  word-break: break-all;
+  margin: 0;
+  border: 1px solid #999;
+}
+
+.weather-table {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(80px, 1fr))[8];
+      grid-template-columns: repeat(8, minmax(80px, 1fr));
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  padding: 1rem;
+}
+
+.weather-table .header-table {
+  background-color: blue;
+  color: white;
+}
+
+.weather-table .detail-id:hover {
+  color: red;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.total-registers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 1rem;
+}
+
+.total-registers span {
+  text-decoration: underline;
+}
+
+.pagination-container {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+/*# sourceMappingURL=weatherTable.css.map */

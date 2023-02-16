@@ -1,0 +1,40 @@
+$border-style: 1px solid #999;
+
+p {
+    word-break: break-all;
+    margin: 0;
+    border: $border-style;
+}
+
+.weather-table {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(80px, 1fr));
+    grid-template-rows: auto;
+    padding: 1rem;
+
+    .header-table {
+        background-color: blue;
+        color: white;
+    }
+
+    .detail-id:hover {
+        color: red;
+        font-weight: 700;
+        cursor: pointer
+    }
+}
+
+.total-registers {
+    display: flex;
+    margin-left: 1rem;
+
+    span {
+        text-decoration: underline;
+    }
+}
+
+.pagination-container {
+    width: 100%;
+    display: block;
+    margin: auto;
+}

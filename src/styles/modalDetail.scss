@@ -1,0 +1,17 @@
+.modal-detail {
+    position: sticky;
+    top: 0;
+    left: 1rem;
+    margin: 1rem;
+    background-color: #aaa;
+    min-width: 200px;
+    max-width: 100%;
+
+    span {
+        cursor: pointer;
+    }
+
+    p {
+        background-color: #eee;
+    }
+}

@@ -1,0 +1,19 @@
+.modal-detail {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 1rem;
+  margin: 1rem;
+  background-color: #aaa;
+  min-width: 200px;
+  max-width: 100%;
+}
+
+.modal-detail span {
+  cursor: pointer;
+}
+
+.modal-detail p {
+  background-color: #eee;
+}
+/*# sourceMappingURL=modalDetail.css.map */
